@@ -65,3 +65,14 @@ div .book p,
 .book h2 {
   padding: 10px;
 }
+
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  padding: 20px;
+}

@@ -5,7 +5,7 @@ export default function Search(props) {
     <div className="search">
       <h2>Search</h2>
       <form>
-        <input type="search" placeholder="henry" required />
+        <input type="search" placeholder="On the Road" required />
         <button onClick={props.bookSearch}>Search</button>
       </form>
     </div>
