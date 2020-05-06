@@ -11,6 +11,7 @@ export default function BookCard(props) {
         <a href={props.link} target="_blank">
           Read More
         </a>
+        <p>{props.summary}</p>
       </div>
     </div>
   );

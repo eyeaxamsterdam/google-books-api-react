@@ -19,6 +19,7 @@ export default function BookList(props) {
               book.volumeInfo.publishedDate
             ).getFullYear()}
             link={book.volumeInfo.infoLink}
+            summary={book.volumeInfo.description}
           />
         );
       })}
